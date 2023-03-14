@@ -1,0 +1,32 @@
+.cdon__footer {
+  background: var(--color-footer);
+  padding: 4rem 4rem;
+}
+
+.cdon__footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cdon__footer-container h3 {
+  margin-bottom: 1rem;
+  font-family: var(--font-family);
+  color: #fff;
+}
+
+.cdon__footer-container p {
+  font-family: var(--font-family);
+  color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+  .cdon__footer-container h3 {
+    font-size: 12px;
+  }
+
+  .cdon__footer-container p {
+    font-size: 10px;
+  }
+}

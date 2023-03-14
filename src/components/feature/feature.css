@@ -1,0 +1,61 @@
+.cdon__features-container__feature {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+
+  margin: 1rem;
+}
+
+.cdon__features-container__feature-title {
+  flex: 1;
+  max-width: 180px;
+  margin-right: 2rem;
+}
+
+.cdon__features-container__feature h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.cdon__features-container__feature-title div {
+  width: 30px;
+  height: 3px;
+  background: var(--gradient-bar);
+}
+
+.cdon__features-container_feature-text {
+  flex: 2;
+  max-width: 390px;
+  display: flex;
+}
+
+.cdon__features-container_feature-text p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 550px) {
+  .cdon__features-container__feature-title h1 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .cdon__features-container_feature-text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .cdon__features-container__feature {
+    margin: 1rem 0;
+  }
+}

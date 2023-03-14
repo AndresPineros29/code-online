@@ -1,0 +1,121 @@
+.cdon__cta {
+  display: flex;
+}
+
+.cdon__cta-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-top: auto;
+  margin-left: 5rem;
+}
+
+.cdon__cta-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 65px;
+  letter-spacing: -0.04;
+}
+
+.cdon__cta-content__input {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.cdon__cta-content__input-info {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 2rem 0;
+}
+
+.cdon__cta-content__input-info input {
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 0.5rem;
+  border: none;
+  background-color: #472867;
+  color: #af68f7;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+
+.cdon__cta-content__input-button {
+  display: flex;
+}
+
+.cdon__cta-content__input button {
+  flex: 2;
+  margin: 0 25%;
+  height: 50px;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-size: 26px;
+  line-height: 27px;
+  background: var(--color-button);
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cdon__cta-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cdon__cta-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .cdon__cta {
+    flex-direction: column;
+  }
+  .cdon__cta-content {
+    margin: 5rem 0 0 0;
+  }
+
+  .cdon__cta-content__input-info input {
+    padding: 1rem;
+  }
+
+  .cdon__cta-content__input {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cdon__cta h1 {
+    font-size: 33px;
+    line-height: 35px;
+  }
+
+  .cdon__cta-content {
+    margin: 3rem 0 3rem 0;
+  }
+
+  .cdon__cta-content__input-info input {
+    padding: 0.5rem;
+    font-size: 14px;
+  }
+
+  .cdon__cta-content__input button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .cdon__cta h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}

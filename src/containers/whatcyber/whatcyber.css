@@ -1,0 +1,154 @@
+.cdon__whatcyber {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(20, 4, 33, 1) 0%,
+    rgba(77, 21, 138, 1) 50%,
+    rgba(111, 30, 200, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(20, 4, 33, 1) 0%,
+    rgba(77, 21, 138, 1) 50%,
+    rgba(111, 30, 200, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    45deg,
+    rgba(20, 4, 33, 1) 0%,
+    rgba(77, 21, 138, 1) 50%,
+    rgba(111, 30, 200, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6F1EC8', endColorstr='#140421', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(20, 4, 33, 1) 0%,
+    rgba(77, 21, 138, 1) 50%,
+    rgba(111, 30, 200, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    45deg,
+    rgba(20, 4, 33, 1) 0%,
+    rgba(77, 21, 138, 1) 50%,
+    rgba(111, 30, 200, 1) 100%
+  );
+}
+
+.cdon__whatcyber-feature {
+  display: flex;
+}
+
+/* Customizing feature component as per needs */
+.cdon__whatcyber-feature .cdon__features-container__feature {
+  margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.cdon__whatcyber-feature .cdon__features-container_feature-text {
+  max-width: 700px;
+}
+
+.cdon__whatcyber-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 4rem 0 2rem;
+}
+
+.cdon__whatcyber-heading h1 {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
+}
+
+.cdon__whatcyber-heading p {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+
+.cdon__whatcyber-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.cdon__whatcyber-container .cdon__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.cdon__whatcyber-container .cdon__features-container_feature-text {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .cdon__whatcyber-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .cdon__whatcyber-heading p {
+    margin-top: 1rem;
+  }
+
+  .cdon__whatcyber-container img {
+    margin: auto;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* Customizing feature component as per needs */
+  .cdon__whatcyber-feature .cdon__features-container__feature {
+    flex-direction: column;
+  }
+
+  /* Customizing feature component as per needs */
+  .cdon__whatcyber-feature .cdon__features-container_feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .cdon__whatcyber-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Customizing feature component as per needs */
+  .cdon__whatcyber-container .cdon__features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
+}
