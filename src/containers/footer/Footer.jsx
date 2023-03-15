@@ -10,14 +10,14 @@ const Footer = () => {
           Made whit love by{" "}
           <a
             className="gradient__text"
-            href="https://github.com/AndresPineros29"
+            href="https://github.com/AndresPineros29/code-online"
             target="_blank"
           >
             AndresPineros29 <FaGithub color="#f49867" />
           </a>
         </h3>
 
-        <p>©2023 CyberSecuryCourceLandingPage</p>
+        <p>©2023 CyberSecurityCourseLandingPage</p>
       </div>
     </div>
   );
